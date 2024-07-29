@@ -1,19 +1,30 @@
 #ATM System
 This project implements an ATM system using Object-Oriented Programming (OOP) concepts in Python. The system supports basic ATM functionalities such as user authentication, balance inquiry, cash withdrawal, cash deposit, and card type handling.
 
-Features
+Features:
+
 User Authentication: Secure login system to authenticate users.
+
 Card Types: Supports Rupay, Visa, and Mastercard with specific transaction limits.
+
 Balance Inquiry: Check available balance in the user's account.
+
 Cash Withdrawal: Withdraw cash from the user's account within transaction limits.
+
 Cash Deposit: Deposit cash into the user's account.
+
 ATM Balance Display: Show the remaining amount in the ATM.
-Technologies Used
+
+Technologies Used:
+
 Python
+
 Object-Oriented Programming (OOP)
+
 Class Structure
 Auth Class
 Handles user authentication.
+
 
 Methods:
 __init__(self, username, password): Initializes the class with username and password.
@@ -22,6 +33,7 @@ Balance Class
 Handles ATM and account transactions.
 
 Methods:
+
 __init__(self): Initializes ATM and account balances.
 display_atm_balance(self): Displays the remaining amount in the ATM.
 authenticate_card(self, card_type): Authenticates the card type and sets the transaction limit.
